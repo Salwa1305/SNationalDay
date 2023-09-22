@@ -86,12 +86,8 @@ public class Snday93 extends JFrame implements ActionListener{
  	   
  		cp.add(j1, new BorderLayout().NORTH);
  		cp.add(j3, new BorderLayout().CENTER);
- 		cp.add(j2, new BorderLayout().SOUTH);
- 			
+ 		cp.add(j2, new BorderLayout().SOUTH);	
 	}
-	
-	
-	@Override
 	public void actionPerformed(ActionEvent e) {
 		
 			JFrame s1 = new JFrame();
@@ -105,7 +101,6 @@ public class Snday93 extends JFrame implements ActionListener{
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
 	 			b1.addActionListener(new ActionListener() {
-	 	            @Override
 	 	            public void actionPerformed(ActionEvent e) {
 	 	                // Open the link in a browser
 	 	                if (Desktop.isDesktopSupported()) {
@@ -129,7 +124,6 @@ public class Snday93 extends JFrame implements ActionListener{
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
 	 			b1.addActionListener(new ActionListener() {
-	 	            @Override
 	 	            public void actionPerformed(ActionEvent e) {
 	 	                // Open the link in a browser
 	 	                if (Desktop.isDesktopSupported()) {
@@ -154,7 +148,6 @@ public class Snday93 extends JFrame implements ActionListener{
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
 	 			b1.addActionListener(new ActionListener() {
-	 	            @Override
 	 	            public void actionPerformed(ActionEvent e) {
 	 	                // Open the link in a browser
 	 	                if (Desktop.isDesktopSupported()) {
@@ -178,7 +171,6 @@ public class Snday93 extends JFrame implements ActionListener{
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
 	 			b1.addActionListener(new ActionListener() {
-	 	            @Override
 	 	            public void actionPerformed(ActionEvent e) {
 	 	                // Open the link in a browser
 	 	                if (Desktop.isDesktopSupported()) {
@@ -202,7 +194,6 @@ public class Snday93 extends JFrame implements ActionListener{
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
 	 			b1.addActionListener(new ActionListener() {
-	 	            @Override
 	 	            public void actionPerformed(ActionEvent e) {
 	 	                // Open the link in a browser
 	 	                if (Desktop.isDesktopSupported()) {
@@ -226,7 +217,6 @@ public class Snday93 extends JFrame implements ActionListener{
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
 	 			b1.addActionListener(new ActionListener() {
-	 	            @Override
 	 	            public void actionPerformed(ActionEvent e) {
 	 	                // Open the link in a browser
 	 	                if (Desktop.isDesktopSupported()) {
