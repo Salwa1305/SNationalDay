@@ -1,4 +1,3 @@
-package Nday;
 import java.awt.*;
 import javax.swing.*;
 import java.io.IOException;
@@ -20,29 +19,29 @@ public class Snday93 extends JFrame implements ActionListener{
 	public Snday93() {
 		
 		cp = getContentPane();
-		setTitle("Çáíæã ÇáæØäí ÇáÓÚæÏí -äÍáã æäÍŞŞ");
+		setTitle("Ø§Ù„ÙŠÙˆÙ… Ø§Ù„ÙˆØ·Ù†ÙŠ Ø§Ù„Ø³Ø¹ÙˆØ¯ÙŠ -Ù†Ø­Ù„Ù… ÙˆÙ†Ø­Ù‚Ù‚");
  		setSize(800,400);
  		setLocation(350, 150);
  		setVisible(true);
  		setLayout(new BorderLayout());
  		names = new ButtonGroup();
  		
- 		k1=new JRadioButton ("Ï/ ÓÇÑÉ ÃÈæ ÛÒÇáÉ");
+ 		k1=new JRadioButton ("Ø¯/ Ø³Ø§Ø±Ø© Ø£Ø¨Ùˆ ØºØ²Ø§Ù„Ø©");
  		k1.setBorder(BorderFactory.createLineBorder(Color.BLACK,100));
  		k1.setFont(new Font("Calibri",Font.PLAIN,25));
-        k2=new JRadioButton ("Ï/ ÍÇãÏ ÇáŞÍØÇäí");
+        k2=new JRadioButton ("Ø¯/ Ø­Ø§Ù…Ø¯ Ø§Ù„Ù‚Ø­Ø·Ø§Ù†ÙŠ");
         k2.setBorder(BorderFactory.createLineBorder(Color.BLACK,100));
         k2.setFont(new Font("Calibri",Font.PLAIN,25));
-        k3=new JRadioButton ("Ï/ ÓãíÉ ÚÒæäí");
+        k3=new JRadioButton ("Ø¯/ Ø³Ù…ÙŠØ© Ø¹Ø²ÙˆÙ†ÙŠ");
         k3.setBorder(BorderFactory.createLineBorder(Color.BLACK,100));
         k3.setFont(new Font("Calibri",Font.PLAIN,25));
-        k4=new JRadioButton ("Ã/ ãåÇ äÇÕÑ");
+        k4=new JRadioButton ("Ø£/ Ù…Ù‡Ø§ Ù†Ø§ØµØ±");
         k4.setBorder(BorderFactory.createLineBorder(Color.BLACK,100));
         k4.setFont(new Font("Calibri",Font.PLAIN,25));
-        k5=new JRadioButton ("ã/ ÓÚíÏ ÇáæÇÏÚí");
+        k5=new JRadioButton ("Ù…/ Ø³Ø¹ÙŠØ¯ Ø§Ù„ÙˆØ§Ø¯Ø¹ÙŠ");
         k5.setBorder(BorderFactory.createLineBorder(Color.BLACK,100));
         k5.setFont(new Font("Calibri",Font.PLAIN,25));
-        k6=new JRadioButton ("ÇáØÇáÈÉ ÔíãÇÁ ÍãæÏ");
+        k6=new JRadioButton ("Ø§Ù„Ø·Ø§Ù„Ø¨Ø© Ø´ÙŠÙ…Ø§Ø¡ Ø­Ù…ÙˆØ¯");
         k6.setBorder(BorderFactory.createLineBorder(Color.BLACK,100));
         k6.setFont(new Font("Calibri",Font.PLAIN,25));
         
@@ -54,7 +53,7 @@ public class Snday93 extends JFrame implements ActionListener{
         names.add(k6);
         
  		j1 = new JPanel(new FlowLayout());
- 		start = new JLabel(" ÔÎÕíÇÊ ÓÚæÏíÉ ãáåãÉ İí ãÌÇá ÇáÊŞäíÉ :      ");
+ 		start = new JLabel(" Ø´Ø®ØµÙŠØ§Øª Ø³Ø¹ÙˆØ¯ÙŠØ© Ù…Ù„Ù‡Ù…Ø© ÙÙŠ Ù…Ø¬Ø§Ù„ Ø§Ù„ØªÙ‚Ù†ÙŠØ© :      ");
  		start.setFont(new Font("Calibri",Font.PLAIN,25));
  		j1.add(start);
  		
@@ -101,7 +100,7 @@ public class Snday93 extends JFrame implements ActionListener{
 	 		s1.setLayout(new GridLayout(3,1));
 	 		
 	 		if(k1.isSelected()) {
-	 			s1.setTitle("Ï/ ÓÇÑÉ ÃÈæ ÛÒÇáÉ");
+	 			s1.setTitle("Ø¯/ Ø³Ø§Ø±Ø© Ø£Ø¨Ùˆ ØºØ²Ø§Ù„Ø©");
 	 			s1.setVisible(true);
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
@@ -125,7 +124,7 @@ public class Snday93 extends JFrame implements ActionListener{
 		 	      s1.add(j1);
 	 
 	 		}else if(k2.isSelected()) {
-	 			s1.setTitle("Ï/ ÍÇãÏ ÇáŞÍØÇäí");
+	 			s1.setTitle("Ø¯/ Ø­Ø§Ù…Ø¯ Ø§Ù„Ù‚Ø­Ø·Ø§Ù†ÙŠ");
 	 			s1.setVisible(true);
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
@@ -150,7 +149,7 @@ public class Snday93 extends JFrame implements ActionListener{
 	 			
 
 	 		}else if(k3.isSelected()) {
-	 			s1.setTitle("Ï/ ÓãíÉ ÚÒæäí");
+	 			s1.setTitle("Ø¯/ Ø³Ù…ÙŠØ© Ø¹Ø²ÙˆÙ†ÙŠ");
 	 			s1.setVisible(true);
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
@@ -174,7 +173,7 @@ public class Snday93 extends JFrame implements ActionListener{
 		 	      s1.add(j1);
 		 	      
 	 		}else if(k4.isSelected()) {
-	 			s1.setTitle("Ã/ ãåÇ äÇÕÑ");
+	 			s1.setTitle("Ø£/ Ù…Ù‡Ø§ Ù†Ø§ØµØ±");
 	 			s1.setVisible(true);
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
@@ -198,7 +197,7 @@ public class Snday93 extends JFrame implements ActionListener{
 		 	      s1.add(j1);
 		 	      
 	 		}else if(k5.isSelected()) {
-	 			s1.setTitle("ã/ ÓÚíÏ ÇáæÇÏÚí");
+	 			s1.setTitle("Ù…/ Ø³Ø¹ÙŠØ¯ Ø§Ù„ÙˆØ§Ø¯Ø¹ÙŠ");
 	 			s1.setVisible(true);
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
@@ -222,7 +221,7 @@ public class Snday93 extends JFrame implements ActionListener{
 		 	      s1.add(j1);
 		 	      
 	 		}else if(k6.isSelected()) {
-	 			s1.setTitle("ÇáØÇáÈÉ ÔíãÇÁ ÍãæÏ");
+	 			s1.setTitle("Ø§Ù„Ø·Ø§Ù„Ø¨Ø© Ø´ÙŠÙ…Ø§Ø¡ Ø­Ù…ÙˆØ¯");
 	 			s1.setVisible(true);
 	 			b1 = new JButton("Click here");
 	 			b1.setPreferredSize(new Dimension(200,50));
@@ -269,3 +268,4 @@ public class Snday93 extends JFrame implements ActionListener{
 		f.setVisible(true);
 	} 		  	
 }	
+
